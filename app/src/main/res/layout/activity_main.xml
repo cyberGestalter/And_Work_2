@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/lesson_1"
+                android:textSize="@dimen/lesson_title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lesson_1_1_title"
+                style="@style/MainActivityBorders"
+                android:textSize="@dimen/lesson_title_size"
+                android:textStyle="bold" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson1Dot1"
+                android:text="@string/button_lesson_1_1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lesson_1_2_title"
+                style="@style/MainActivityBorders"
+                android:textSize="@dimen/lesson_title_size"
+                android:textStyle="bold" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson1Dot2A"
+                android:text="@string/button_lesson_1_2_part_a" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson1Dot2B"
+                android:text="@string/button_lesson_1_2_part_b" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson1Dot2HomeWork"
+                android:text="@string/button_lesson_1_2_home_work" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lesson_1_3_title"
+                style="@style/MainActivityBorders"
+                android:textSize="@dimen/lesson_title_size"
+                android:textStyle="bold" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson1Dot3"
+                android:text="@string/button_lesson_1_3" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson1Dot3HomeWork"
+                android:text="@string/button_lesson_1_3_home_work" />
+
+            <TextView
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+
+            <TextView
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/lesson_2"
+                android:textSize="@dimen/lesson_title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lesson_2_1_title"
+                style="@style/MainActivityBorders"
+                android:textSize="@dimen/lesson_title_size"
+                android:textStyle="bold" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson2Dot1"
+                android:text="@string/button_lesson_2_1" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson2Dot1CodingChallenge"
+                android:text="@string/button_lesson_2_1_coding_challenge" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson2Dot1HomeWork"
+                android:text="@string/button_lesson_2_1_home_work" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lesson_2_2_title"
+                style="@style/MainActivityBorders"
+                android:textSize="@dimen/lesson_title_size"
+                android:textStyle="bold" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson2Dot2"
+                android:text="@string/button_lesson_2_2" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson2Dot2CodingChallenge"
+                android:text="@string/button_lesson_2_2_coding_challenge" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson2Dot2HomeWork"
+                android:text="@string/button_lesson_2_2_home_work" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lesson_2_3_title"
+                style="@style/MainActivityBorders"
+                android:textSize="@dimen/lesson_title_size"
+                android:textStyle="bold" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson2Dot3Send"
+                android:text="@string/button_lesson_2_3_1" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson2Dot3Receive"
+                android:text="@string/button_lesson_2_3_2" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson2Dot3CodingChallenge"
+                android:text="@string/button_lesson_2_3_coding_challenge" />
+
+            <Button
+                style="@style/MainActivityBorders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openLesson2Dot3HomeWork"
+                android:text="@string/button_lesson_2_3_home_work" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.and_work_2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.And_Work_2">
+        <activity android:name=".lesson_2.lesson_2_3.Lesson2Dot3HomeWorkActivity"></activity>
+        <activity
+            android:name=".lesson_2.lesson_2_3.Lesson2Dot3CodingChallengeSecondActivity"
+            android:parentActivityName=".lesson_2.lesson_2_3.Lesson2Dot3CodingChallengeFirstActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".lesson_2.lesson_2_3.Lesson2Dot3CodingChallengeFirstActivity" />
+        </activity>
+        <activity android:name=".lesson_2.lesson_2_3.Lesson2Dot3CodingChallengeFirstActivity" />
+        <activity
+            android:name=".lesson_2.lesson_2_3.Lesson2Dot3ReceiveActivity"
+            android:label="@string/button_lesson_2_3_2_app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="developer.android.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lesson_2.lesson_2_3.Lesson2Dot3SendActivity"
+            android:label="@string/button_lesson_2_3_app_name" />
+        <activity
+            android:name=".lesson_2.lesson_2_2.Lesson2Dot2HomeWorkActivity"
+            android:label="@string/button_lesson_2_2_home_work_app_name" />
+        <activity
+            android:name=".lesson_2.lesson_2_2.Lesson2Dot2CodingChallengeSecondActivity"
+            android:label="@string/shopping_items"
+            android:parentActivityName=".lesson_2.lesson_2_2.Lesson2Dot2CodingChallengeFirstActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".lesson_2.lesson_2_2.Lesson2Dot2CodingChallengeFirstActivity" />
+        </activity>
+        <activity
+            android:name=".lesson_2.lesson_2_2.Lesson2Dot2CodingChallengeFirstActivity"
+            android:label="@string/shopping_list" />
+        <activity
+            android:name=".lesson_2.lesson_2_2.Lesson2Dot2SecondActivity"
+            android:label="@string/lesson_two_dot_2_second_activity_name"
+            android:parentActivityName=".lesson_2.lesson_2_2.Lesson2Dot2FirstActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".lesson_2.lesson_2_2.Lesson2Dot2FirstActivity" />
+        </activity>
+        <activity
+            android:name=".lesson_2.lesson_2_2.Lesson2Dot2FirstActivity"
+            android:label="@string/lesson_two_dot_2_app_name" />
+        <activity
+            android:name=".lesson_2.lesson_2_1.Lesson2Dot1HomeWorkSecondActivity"
+            android:parentActivityName=".lesson_2.lesson_2_1.Lesson2Dot1HomeWorkFirstActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".lesson_2.lesson_2_1.Lesson2Dot1HomeWorkFirstActivity" />
+        </activity>
+        <activity android:name=".lesson_2.lesson_2_1.Lesson2Dot1HomeWorkFirstActivity" />
+        <activity
+            android:name=".lesson_2.lesson_2_1.Lesson2Dot1CodingChallengeSecondActivity"
+            android:parentActivityName=".lesson_2.lesson_2_1.Lesson2Dot1CodingChallengeFirstActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".lesson_2.lesson_2_1.Lesson2Dot1CodingChallengeFirstActivity" />
+        </activity>
+        <activity android:name=".lesson_2.lesson_2_1.Lesson2Dot1CodingChallengeFirstActivity" />
+        <activity
+            android:name=".lesson_2.lesson_2_1.Lesson2Dot1SecondActivity"
+            android:label="@string/lesson_two_dot_1_second_activity_name"
+            android:parentActivityName=".lesson_2.lesson_2_1.Lesson2Dot1FirstActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".lesson_2.lesson_2_1.Lesson2Dot1FirstActivity" />
+        </activity>
+        <activity
+            android:name=".lesson_2.lesson_2_1.Lesson2Dot1FirstActivity"
+            android:label="@string/lesson_two_dot_1_app_name" />
+        <activity android:name=".lesson_1.lesson_1_3.Lesson1Dot3HomeWorkActivity" />
+        <activity android:name=".lesson_1.lesson_1_3.Lesson1Dot3Activity" />
+        <activity
+            android:name=".lesson_1.lesson_1_2.Lesson1Dot2HomeWorkActivity"
+            android:label="@string/second_lesson_home_work_app_name" />
+        <activity android:name=".lesson_1.lesson_1_2.Lesson1Dot2PartBActivity" />
+        <activity android:name=".lesson_1.lesson_1_1.Lesson1Dot1Activity" />
+        <activity android:name=".lesson_1.lesson_1_2.Lesson1Dot2PartAActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

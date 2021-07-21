@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">And_Work_2</string>
+
+    <string name="lesson_1">Lesson 1</string>
+
+    <string name="lesson_1_1_title">1.1</string>
+    <string name="button_lesson_1_1">Lesson 1.1</string>
+    <string name="hello_world">Happy Birthday to me</string>
+
+    <string name="lesson_1_2_title">1.2</string>
+    <string name="button_lesson_1_2_part_a">Lesson 1.2 A</string>
+    <string name="button_label_count">Count</string>
+    <string name="button_label_toast">Toast</string>
+    <string name="count_initial_value">0</string>
+    <string name="toast_message">Hello Toast!</string>
+
+    <string name="button_lesson_1_2_part_b">Lesson 1.2 B</string>
+
+    <string name="button_lesson_1_2_home_work">Lesson 1.2 Home work</string>
+    <string name="button_label_zero">Zero</string>
+    <string name="second_lesson_home_work_app_name">Hello Constraint</string>
+
+    <string name="button_lesson_1_3">Lesson 1.3</string>
+    <string name="lesson_1_3_title">1.3</string>
+    <string name="article_title">Beatles Anthology Vol. 1</string>
+    <string name="article_subtitle">Behind That Locked Door: Beatles Rarities!</string>
+    <string name="article_text">In a vault deep inside Abbey Road Studios in London — protected by an unmarked, triple-locked, police-alarmed door — are something like 400 hours of unreleased Beatles recordings, starting from June 2, 1962 and ending with the very last tracks recorded for the <i>Let It Be</i> album. The best of the best were released by Apple Records in the form of the 3-volume Anthology series.
+        For more information, see the Beatles Time Capsule at www.rockument.com.
+\n\n
+This volume starts with the first new Beatle song, “Free as a Bird” (based on a John Lennon demo, found only on <i>The Lost Lennon Tapes Vol. 28</i>, and covers the very earliest historical recordings, outtakes from the first albums, and live recordings from early concerts and BBC Radio sessions.
+\n\n
+<b>Highlights include:</b>
+\n\n
+<b><i>Cry for a Shadow</i></b> - Many a Beatle fanatic started down the outtake road, like I did, with a first listen to this song. Originally titled “Beatle Bop” and recorded in a single session that yielded four songs (the other three featured Tony Sheridan with the Beatles as a backing band), “Cry for a Shadow” is an instrumental written by Lennon and Harrison, which makes it unique to this day. John Lennon plays rhythm guitar, George Harrison plays lead guitar, Paul McCartney plays bass, and Pete Best plays drums. The sessions were produced by Bert Kaempfert in Hamburg, Germany, during the Beatles’ second visit from April through July of 1961 to play in the Reeperbahn-section clubs.
+\n\n
+<b><i>My Bonnie</i></b> and <b><i>Ain’t She Sweet</i></b> — At the same session, the Beatles played on “My Bonnie” (the first-ever single with Beatles playing), as the backing band for English singer Tony Sheridan, originally a member of the Jets. The popularity of this single in Liverpool brought the Beatles to the attention of Brian Epstein, who worked in the NEMS record store and tried to meet demand for the disc. John Lennon then sings a fine “Ain’t She Sweet” (his first-ever released vocal).
+\n\n
+<b><i>Searchin</i></b> — A Jerry Leiber - Mike Stoller comedy song that was a hit for the Coasters in 1957, and a popular live favorite of the Beatles. The Coasters also had a hit with “Besame Mucho” and the Beatles covered that song as well. Ringo Starr had by now replaced Pete Best on drums. The high falsetto is George, who also plays a hesitant lead guitar. This is from their first audition for Decca Records in London on Jan 1., 1962, live in the studio. The Grateful Dead would later cover “Searchin” with a similar arrangement, Pigpen doing the Paul vocals. A live version is available on outtake records featuring the Dead joined by the Beach Boys!
+\n\n
+<b><i>Love Me Do</i></b> — An early version of the song, played a bit slower and with more of a blues feeling, and a cool bossa-nova beat in middle. Paul had to sing while John played harmonica — a first for the group. Pete Best played drums on this version.
+\n\n
+<b><i>She Loves You – Till There Was You – Twist and Shout</i></b> — Live at the Princess Wales Theatre by Leicester Square in London, attended by the Queen. “Till There Was You” (by Meredith Wilson) is from the musical The Music Man and a hit for Peggy Lee in 1961. Before playing it, Paul said it was recorded by his favorite American group, “Sophie Tucker” (which got some laughs). At the end, John tells the people in the cheaper seats to clap their hands, and the rest to “rattle your jewelry” and then announces “Twist and Shout” (a song by Bert Russell and Phil Medley that was first recorded in 1962 by the Isley Brothers). A film of the performance shows the Queen smiling at John’s remark.
+\n\n
+<b><i>Leave My Kitten Alone</i></b> — One of the lost Beatle songs recorded during the “Beatles For Sale” sessions but never released. This song, written by Little Willie John, Titus Turner, and James McDougal, was a 1959 R&amp;B hit for Little Willie John and covered by Johnny Preston before the Beatles tried it and shelved it. A reference to a “big fat bulldog” may have influenced John’s “Hey Bulldog” (Yellow Submarine album), which is a similar rocker.
+\n\n
+<b><i>One After 909</i></b> — A song recorded for the <i>Let It Be</i> album was actually worked on way back in the beginning, six years earlier. This take shows how they did it much more slowly, with an R&amp;B feel to it.
+</string>
+    <string name="button_label_comment">Add comment</string>
+
+    <string name="button_lesson_1_3_home_work">Lesson 1.3 Home work</string>
+
+    <string name="lesson_2">Lesson 2</string>
+
+    <string name="lesson_two_dot_1_app_name">Two Activities</string>
+    <string name="button_lesson_2_1">Lesson 2.1</string>
+    <string name="lesson_2_1_title">2.1</string>
+    <string name="button_label_send">Send</string>
+    <string name="button_clicked">Button clicked!</string>
+    <string name="lesson_two_dot_1_second_activity_name">Second Activity</string>
+    <string name="text_header">Message Received</string>
+    <string name="editText_main_hint">Enter your message here</string>
+    <string name="button_second">Reply</string>
+    <string name="editText_second">Enter Your Reply Here</string>
+    <string name="text_header_reply">Reply Received</string>
+
+    <string name="button_lesson_2_1_coding_challenge">Lesson 2.1 Coding Challenge</string>
+    <string name="button_label_text_one">Text One</string>
+    <string name="button_label_text_two">Text Two</string>
+    <string name="button_label_text_three">Text Three</string>
+
+    <string name="button_lesson_2_1_home_work">Lesson 2.1 Home work</string>
+    <string name="button_label_say_hello">Say hello</string>
+    <string name="said_hello">Hello!</string>
+
+    <string name="button_lesson_2_2">Lesson 2.2</string>
+    <string name="lesson_2_2_title">2.2</string>
+    <string name="log_comment_underscores">-------</string>
+    <string name="log_comment_on_create">onCreate</string>
+    <string name="log_comment_on_start">onStart</string>
+    <string name="log_comment_on_resume">onResume</string>
+    <string name="log_comment_on_pause">onPause</string>
+    <string name="log_comment_on_stop">onStop</string>
+    <string name="log_comment_on_destroy">onDestroy</string>
+    <string name="log_comment_on_restart">onRestart</string>
+    <string name="end_lesson_2_dot_2_second_activity">End Lesson2Dot2SecondActivity</string>
+    <string name="lesson_two_dot_2_app_name">Two Activities 2</string>
+    <string name="lesson_two_dot_2_second_activity_name">Second Activity 2</string>
+
+
+    <string name="button_lesson_2_2_coding_challenge">Lesson 2.2 Coding Challenge</string>
+    <string name="shopping_list">Shopping list</string>
+    <string name="shopping_items">Shopping items</string>
+    <string name="add_item">Add item</string>
+    <string name="item_1">Apples</string>
+    <string name="item_2">Rice</string>
+    <string name="item_3">Cheese</string>
+    <string name="item_4">Wine</string>
+    <string name="item_5">Carrot</string>
+    <string name="item_6">Orange</string>
+    <string name="item_7">Shampoo</string>
+    <string name="item_8">Bicycle</string>
+    <string name="item_9">Car</string>
+    <string name="item_10">House</string>
+
+    <string name="button_lesson_2_2_home_work">Lesson 2.2 Home Work</string>
+    <string name="button_lesson_2_2_home_work_app_name">CounterHomework</string>
+    <string name="type_something">Type something</string>
+
+    <string name="button_lesson_2_3_1">Lesson 2.3 Send Intents</string>
+    <string name="lesson_2_3_title">2.3</string>
+    <string name="button_lesson_2_3_app_name">Implicit Intents</string>
+    <string name="edittext_uri">http://developer.android.com</string>
+    <string name="button_uri">Open Website</string>
+    <string name="edittext_loc">Golden Gate Bridge</string>
+    <string name="button_loc">Open Location</string>
+    <string name="edittext_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_share">Share This Text</string>
+    <string name="can_not_handle">Can\'t handle this!</string>
+    <string name="geo_suffix">geo:0,0?q=</string>
+    <string name="share_text">Share this text with: </string>
+
+    <string name="button_lesson_2_3_2">Lesson 2.3 Receive Intents</string>
+    <string name="button_lesson_2_3_2_app_name">Implicit Intents Receiver</string>
+    <string name="uri_label">URI: </string>
+
+    <string name="button_lesson_2_3_coding_challenge">Lesson 2.3 Coding Challenge</string>
+
+    <string name="button_lesson_2_3_home_work">Lesson 2.3 Home Work</string>
+    <string name="take_a_picture">Take a picture</string>
+</resources>
